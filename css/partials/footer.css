@@ -1,0 +1,174 @@
+footer {
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+    "locations admission openinghours contact"
+    "social admission openinghours contact";
+  width: 100%;
+  height: 400px;
+  background-color: #35083e;
+  grid-template-columns: 300px 300px 300px 300px;
+  column-gap: 20px;
+  text-align: center;
+  color: white;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.footer__location {
+  grid-area: locations;
+}
+
+.footer__location h5 {
+  font-size: 20px;
+  margin: 40px 0px 5px 0px;
+}
+
+.footer__location a {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.footer__social {
+  grid-area: social;
+}
+
+.footer__social h5 {
+  font-size: 20px;
+  margin: 40px 0px 5px 0px;
+}
+
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-youtube-square {
+  color: white;
+  font-size: 50px;
+  margin: 0px 10px 0px 0px;
+}
+
+.footer__admission {
+  grid-area: admission;
+}
+
+.footer__admission h5 {
+  font-size: 20px;
+  margin: 40px 0px 5px 0px;
+}
+
+.footer__openinghours {
+  grid-area: openinghours;
+}
+
+.footer__openinghours h5 {
+  font-size: 20px;
+  margin: 40px 0px 5px 0px;
+}
+
+.footer__contact {
+  grid-area: contact;
+}
+
+.footer__contact h5 {
+  font-size: 20px;
+  margin: 40px 0px 5px 0px;
+}
+
+.reachout__btn {
+  background-color: var(--blue-main);
+  border: none;
+  color: white;
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 50px;
+  text-decoration: none;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: white;
+  display: block;
+  padding-top: 15px;
+}
+
+footer p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+/* MEDIA Queries */
+
+@media (max-width: 1300px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .reachout__btn {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+
+  .reachout__btn {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    display: grid;
+    grid-template-areas:
+      "location"
+      "admission"
+      "openinghours"
+      "social"
+      "contact";
+    grid-template-columns: 100%;
+    column-gap: 0;
+    justify-content: space-around;
+  }
+
+  .footer__admission {
+    grid-area: admission;
+  }
+
+  .footer__contact {
+    grid-area: contact;
+  }
+
+  .footer__location {
+    grid-area: location;
+  }
+
+  .footer__social {
+    grid-area: social;
+  }
+
+  .footer__openinghours {
+    grid-area: openinghours;
+  }
+
+  .footer__admission,
+  .footer__contact,
+  .footer__location,
+  .footer__social,
+  .footer__openinghours {
+    padding: 20px;
+  }
+
+  .reachout__btn {
+    margin-bottom: 30px;
+  }
+}

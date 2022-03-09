@@ -1,0 +1,344 @@
+.info__container {
+  width: 70%;
+  height: 400px;
+  margin: 40px auto 0px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--lightgray-main);
+  border: #707070 1px solid;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 7px #a09fa9;
+}
+
+.admission__box {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.admission__box h1 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.admission__box a {
+  color: black;
+}
+
+.hours__box {
+  width: 30%;
+}
+
+.hours__box h2 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 32px;
+}
+
+.info__container p {
+  font-family: "Poppins", sans-serif;
+}
+
+.accessibility__banner {
+  width: 90%;
+  height: 60px;
+  margin: 40px auto 0px auto;
+  border-radius: 5px;
+  background-color: #0d3676;
+}
+
+.accessibility__banner p {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+.booking__container {
+  width: 30%;
+  height: 600px;
+  border: black 1px solid;
+  border-radius: 5px;
+  margin: 40px auto 40px auto;
+  background-color: white;
+  box-shadow: 5px 5px 7px #a09fa9;
+}
+
+.form__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.booking__header {
+  text-align: center;
+}
+
+.booking__form {
+  width: 70%;
+  margin-top: 40px;
+}
+.booking__form input[type="text"] {
+  width: 100%;
+  height: 20px;
+  display: inline-block;
+  margin: 5px 0px 20px 0px;
+}
+
+.booking__form select[type="text"] {
+  width: 100%;
+  height: 20px;
+  display: inline-block;
+  margin: 0px 0px 10px 0px;
+}
+
+.booking__form select {
+  display: flex;
+  border: #cccccc 1px solid;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  margin: 5px 0px 20px 0px;
+}
+
+.booking__container label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.book__btn {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.book__btn button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: var(--blue-main);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.map__container {
+  width: 80%;
+  margin: 40px auto 0px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 5px 5px 7px #a09fa9;
+}
+
+.map__box {
+  border: #707070 1px solid;
+  width: 60%;
+  border-right: transparent;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.adress__box {
+  border: #707070 1px solid;
+  width: 40%;
+  background-color: white;
+  border-radius: 0px 5px 5px 0px;
+  background-color: white;
+}
+
+.adress__box H3 {
+  font-size: 30px;
+  padding-top: 70px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.adress__box a {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.service__container {
+  width: 80%;
+  height: 620px;
+  margin: 40px auto 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.service__container h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.service__container p {
+  font-family: "Poppins", sans-serif;
+}
+
+.shop__box,
+.cafe__box {
+  width: 40%;
+  min-width: 400px;
+  border: #707070 1px solid;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 7px #a09fa9;
+}
+
+.shop__img-container,
+.cafe__img-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.shop__img,
+.cafe__img {
+  width: 90%;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.shop__text,
+.cafe__text {
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* MEDIA Queries */
+
+@media (max-width: 1200px) {
+  .info__container {
+    height: 100%;
+  }
+
+  .accessibility__banner {
+    height: 70px;
+  }
+  .booking__container {
+    min-width: 350px;
+  }
+
+  .service__container {
+    width: 80%;
+    height: 100%;
+    margin: 40px auto 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+
+  .shop__img,
+  .cafe__img {
+    width: 90%;
+    max-height: 300px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  .info__container {
+    flex-direction: column;
+  }
+
+  .admission__box,
+  .hours__box {
+    width: 100%;
+  }
+
+  .accessibility__banner p {
+    padding: 10px 0px 20px 0px;
+  }
+
+  .booking__container {
+    min-width: 350px;
+  }
+
+  .map__box {
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  .adress__box {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .adress__box H3 {
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+
+  .adress__box a {
+    margin-bottom: 20px;
+  }
+
+  .service__container {
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .shop__box,
+  .cafe__box {
+    width: 60%;
+    margin: 20px auto;
+  }
+  .shop__img,
+  .cafe__img {
+    width: 90%;
+    max-height: 350px;
+    border-radius: 5px;
+  }
+  .adress__box {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .info__container {
+    min-width: 340px;
+  }
+  .accessibility__banner {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .accessibility__banner p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .map__container {
+    min-width: 340px;
+    flex-direction: column-reverse;
+  }
+
+  .booking__container {
+    min-width: 340px;
+  }
+
+  .service__container {
+    width: 100%;
+    height: 100%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop__box,
+  .cafe__box {
+    width: 70%;
+    min-width: 340px;
+    margin: 20px auto;
+  }
+  .shop__img,
+  .cafe__img {
+    width: 90%;
+    max-height: 350px;
+  }
+  .adress__box {
+    padding-bottom: 20px;
+  }
+}

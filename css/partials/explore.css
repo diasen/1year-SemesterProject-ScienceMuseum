@@ -1,0 +1,221 @@
+.kids__container,
+.teacher__container,
+.researcher__container {
+  width: 80%;
+  height: 350px;
+  margin: 40px auto 40px auto;
+  background-color: white;
+  border: black 1px solid;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px #a09fa9;
+}
+
+.kids__img-container,
+.teacher__img-container,
+.researcher__img-container {
+  width: 30%;
+  border-radius: 5px;
+}
+.kids__img,
+.teacher__img {
+  height: 300px;
+  width: 340px;
+  display: block;
+  border-radius: 5px;
+  margin: 25px auto auto auto;
+}
+
+.kids__text {
+  width: 65%;
+  margin: 20px 0px 20px 0px;
+  padding: 0px 20px 0px 20px;
+  color: black;
+}
+
+.teacher__text,
+.researcher__text,
+.kids__text,
+h1,
+h2 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.youngstars__banner {
+  width: 90%;
+  height: 80px;
+  border-radius: 5px;
+  margin: 40px auto 0px auto;
+  background-color: var(--blue-main);
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.youngstars__banner,
+.holidayclub__banner,
+p {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.teacher__text,
+.researcher__text,
+a {
+  width: 60%;
+  margin: auto;
+  color: black;
+}
+
+.holidayclub__banner {
+  width: 90%;
+  height: 80px;
+  background-color: var(--blue-main);
+  margin: 40px auto 0px auto;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.researcher__img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  border-radius: 5px;
+  margin: 70px auto auto 60px;
+}
+
+.kids__container,
+.teacher__container,
+.researcher__container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.youngstars__banner {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+.holidayclub__banner p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+.holidayclub__banner a {
+  color: white;
+}
+
+/* MEDIA Queries */
+
+@media (max-width: 1200px) {
+  .kids__text {
+    width: 60%;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .kids__img-container {
+    width: 40%;
+    border-radius: 5px;
+  }
+
+  .youngstars__banner,
+  .holidayclub__banner {
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    height: 130px;
+  }
+
+  .youngstars__banner p {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .kids__container,
+  .researcher__container,
+  .teacher__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+  }
+
+  .kids__img-container,
+  .researcher__img-container,
+  .teacher__img-container {
+    width: 100%;
+  }
+
+  .kids__text,
+  .researcher__text,
+  .teacher__text {
+    text-align: center;
+    width: 90%;
+  }
+
+  .youngstars__banner,
+  .holidayclub__banner {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    height: 100%;
+  }
+  .youngstars__banner,
+  .holidayclub__banner,
+  p {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .holidayclub__banner {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .kids__container,
+  .researcher__container,
+  .teacher__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 340px;
+  }
+
+  .kids__img-container,
+  .researcher__img-container,
+  .teacher__img-container {
+    width: 100%;
+  }
+
+  .kids__text,
+  .researcher__text,
+  .teacher__text {
+    text-align: center;
+    width: 90%;
+  }
+  .youngstars__banner,
+  .holidayclub__banner {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    height: 100%;
+  }
+  .youngstars__banner p {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .holidayclub__banner p {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,192 @@
+<svg id="Component_19_1" data-name="Component 19 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="145.516" viewBox="0 0 320 145.516">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1" data-name="Path 1" d="M600,131.24v71.24h71.24V60H600Z" transform="translate(-600 -60)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.03" y1="1.605" x2="-0.03" y2="1.607" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1478c8"/>
+      <stop offset="1" stop-color="#288cdc"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Path_2" data-name="Path 2" d="M564.249,157.244l-11.134,63.142,63.142,11.134,22.267-126.284L575.382,94.1Z" transform="translate(-553.115 -94.102)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-0.089" y1="1.727" x2="-0.089" y2="1.729" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-3">
+      <path id="Path_3" data-name="Path 3" d="M537.408,188.029l-19.493,53.555,53.555,19.493,38.985-107.11L556.9,134.474Z" transform="translate(-517.915 -134.474)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-0.162" y1="1.881" x2="-0.162" y2="1.883" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-4">
+      <path id="Path_4" data-name="Path 4" d="M519.934,221.322,495,264.509l43.187,24.934,49.868-86.374-43.187-24.934Z" transform="translate(-495 -178.135)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-0.257" y1="2.078" x2="-0.257" y2="2.08" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-5">
+      <path id="Path_5" data-name="Path 5" d="M511.773,254.856,484.3,287.6l32.744,27.475,54.951-65.488-32.744-27.475Z" transform="translate(-484.298 -222.112)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="-0.384" y1="2.34" x2="-0.384" y2="2.343" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-6">
+      <path id="Path_6" data-name="Path 6" d="M512.38,286.478l-27.287,22.9,22.9,27.287,54.573-45.792-22.9-27.286Z" transform="translate(-485.094 -263.582)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="-0.561" y1="2.707" x2="-0.561" y2="2.711" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-7">
+      <path id="Path_8" data-name="Path 8" d="M520.756,314.248,496.077,328.5l14.248,24.678,49.357-28.5L545.434,300Z" transform="translate(-496.077 -300)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="-0.828" y1="3.257" x2="-0.828" y2="3.261" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-8">
+      <path id="Path_9" data-name="Path 9" d="M535.511,336.528l-20.083,7.31,7.31,20.083L562.9,349.3l-7.31-20.083Z" transform="translate(-515.428 -329.218)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-8" x1="-1.272" y1="4.174" x2="-1.272" y2="4.179" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-9">
+      <path id="Path_10" data-name="Path 10" d="M554.943,352.055l-14.032,2.474,2.474,14.032,28.063-4.948-2.474-14.032Z" transform="translate(-540.911 -349.581)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-9" x1="-2.162" y1="6.002" x2="-2.162" y2="6.01" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-10">
+      <path id="Path_11" data-name="Path 11" d="M577.124,360H570v7.124h14.248V360Z" transform="translate(-570 -360)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-10" x1="-4.848" y1="11.453" x2="-4.848" y2="11.47" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="shape_1" data-name="shape 1" transform="translate(150.4)">
+    <g id="Group_3" data-name="Group 3" transform="translate(64.971)">
+      <g id="Group_2" data-name="Group 2" clip-path="url(#clip-path)">
+        <g id="Group_1" data-name="Group 1" transform="translate(-68.408 2.734)">
+          <g id="curve_1_c1" data-name="curve 1 c1">
+            <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="68.351" cy="68.351" rx="68.351" ry="68.351" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 6.269)">
+      <g id="curve_1_c0" data-name="curve 1 c0">
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="64.971" cy="64.971" rx="64.971" ry="64.971" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(53.837 8.098)">
+      <g id="Group_6" data-name="Group 6" clip-path="url(#clip-path-2)">
+        <g id="Group_5" data-name="Group 5" transform="translate(-75.913 -23.905)">
+          <g id="curve_1_c1-2" data-name="curve 1 c1">
+            <circle id="Ellipse_3" data-name="Ellipse 3" cx="61.552" cy="61.552" r="61.552" transform="translate(0 87.047) rotate(-45)" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(6.839 13.108)">
+      <g id="curve_1_c0-2" data-name="curve 1 c0">
+        <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="58.132" cy="58.132" rx="58.132" ry="58.132" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(45.479 17.685)">
+      <g id="Group_10" data-name="Group 10" clip-path="url(#clip-path-3)">
+        <g id="Group_9" data-name="Group 9" transform="translate(-57.883 -23.82)">
+          <g id="curve_1_c1-3" data-name="curve 1 c1" transform="translate(0 0)">
+            <circle id="Ellipse_5" data-name="Ellipse 5" cx="54.713" cy="54.713" r="54.713" transform="translate(0 77.375) rotate(-45)" fill="url(#linear-gradient-3)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(13.748 19.919)">
+      <g id="curve_1_c0-3" data-name="curve 1 c0">
+        <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="51.166" cy="51.166" rx="51.166" ry="51.166" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="translate(40.037 28.053)">
+      <g id="Group_14" data-name="Group 14" clip-path="url(#clip-path-4)">
+        <g id="Group_13" data-name="Group 13" transform="translate(-22.939 -4.686)">
+          <g id="curve_1_c1-4" data-name="curve 1 c1">
+            <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="47.873" cy="47.873" rx="47.873" ry="47.873" fill="url(#linear-gradient-4)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_16" data-name="Group 16" transform="translate(20.517 26.786)">
+      <g id="curve_1_c0-4" data-name="curve 1 c0">
+        <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="44.454" cy="44.454" rx="44.454" ry="44.454" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(37.496 38.496)">
+      <g id="Group_18" data-name="Group 18" clip-path="url(#clip-path-5)">
+        <g id="Group_17" data-name="Group 17" transform="translate(-13.559 -8.29)">
+          <g id="curve_1_c1-5" data-name="curve 1 c1">
+            <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="41.034" cy="41.034" rx="41.034" ry="41.034" fill="url(#linear-gradient-5)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_20" data-name="Group 20" transform="translate(27.356 33.625)">
+      <g id="curve_1_c0-5" data-name="curve 1 c0">
+        <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="37.615" cy="37.615" rx="37.615" ry="37.615" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_23" data-name="Group 23" transform="translate(37.684 48.344)">
+      <g id="Group_22" data-name="Group 22" clip-path="url(#clip-path-6)">
+        <g id="Group_21" data-name="Group 21" transform="translate(-21.073 -25.463)">
+          <g id="curve_1_c1-6" data-name="curve 1 c1">
+            <circle id="Ellipse_11" data-name="Ellipse 11" cx="34.195" cy="34.195" r="34.195" transform="translate(0 48.36) rotate(-45)" fill="url(#linear-gradient-6)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_24" data-name="Group 24" transform="translate(34.195 40.465)">
+      <g id="curve_1_c0-6" data-name="curve 1 c0">
+        <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="30.776" cy="30.776" rx="30.776" ry="30.776" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_27" data-name="Group 27" transform="translate(40.293 56.992)">
+      <g id="Group_26" data-name="Group 26" clip-path="url(#clip-path-7)">
+        <g id="Group_25" data-name="Group 25" transform="translate(-2.683 -13.113)">
+          <g id="curve_1_c1-7" data-name="curve 1 c1">
+            <path id="Path_7" data-name="Path 7" d="M535.833,258.463a27.356,27.356,0,1,1-37.369-10.013A27.356,27.356,0,0,1,535.833,258.463Z" transform="translate(-484.781 -244.781)" fill="url(#linear-gradient-7)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_28" data-name="Group 28" transform="translate(41.034 47.304)">
+      <g id="curve_1_c0-7" data-name="curve 1 c0">
+        <ellipse id="Ellipse_13" data-name="Ellipse 13" cx="23.937" cy="23.937" rx="23.937" ry="23.937" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_31" data-name="Group 31" transform="translate(44.888 63.931)">
+      <g id="Group_30" data-name="Group 30" clip-path="url(#clip-path-8)">
+        <g id="Group_29" data-name="Group 29" transform="translate(-8.933 -21.706)">
+          <g id="curve_1_c1-8" data-name="curve 1 c1" transform="translate(0 0)">
+            <circle id="Ellipse_14" data-name="Ellipse 14" cx="20.517" cy="20.517" r="20.517" transform="translate(0 29.016) rotate(-45)" fill="url(#linear-gradient-8)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_32" data-name="Group 32" transform="translate(48.119 54.29)">
+      <g id="curve_1_c0-8" data-name="curve 1 c0">
+        <ellipse id="Ellipse_15" data-name="Ellipse 15" cx="16.795" cy="17.185" rx="16.795" ry="17.185" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_35" data-name="Group 35" transform="translate(50.939 68.766)">
+      <g id="Group_34" data-name="Group 34" transform="translate(0)" clip-path="url(#clip-path-9)">
+        <g id="Group_33" data-name="Group 33" transform="translate(-0.451 -12.009)">
+          <g id="curve_1_c1-9" data-name="curve 1 c1">
+            <ellipse id="Ellipse_16" data-name="Ellipse 16" cx="13.678" cy="13.678" rx="13.678" ry="13.678" transform="matrix(0.061, -0.998, 0.998, 0.061, 0, 27.306)" fill="url(#linear-gradient-9)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(53.236 59.505)">
+      <g id="curve_1_c0-9" data-name="curve 1 c0" transform="translate(0 0)">
+        <ellipse id="Ellipse_17" data-name="Ellipse 17" cx="10.259" cy="10.259" rx="10.259" ry="10.259" transform="translate(0 20.266) rotate(-81.016)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(57.847 71.24)">
+      <g id="Group_38" data-name="Group 38" transform="translate(0)" clip-path="url(#clip-path-10)">
+        <g id="Group_37" data-name="Group 37" transform="translate(-2.271 -9.395)">
+          <g id="curve_1_c1-10" data-name="curve 1 c1" transform="translate(0)">
+            <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="6.839" cy="6.839" rx="6.839" ry="6.839" transform="matrix(0.519, -0.855, 0.855, 0.519, 0, 11.692)" fill="url(#linear-gradient-10)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_40" data-name="Group 40" transform="translate(61.538 67.807)">
+      <g id="curve_1_c0-10" data-name="curve 1 c0" transform="translate(0 0)">
+        <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="3.42" cy="3.42" rx="3.42" ry="3.42" transform="translate(0 0.027) rotate(-0.226)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <text id="Community_" data-name="Community 
+" transform="translate(0 23.5)" font-size="36" font-family="Raleway-SemiBold, Raleway" font-weight="600"><tspan x="0" y="34">COMMUNITY </tspan></text>
+  <text id="Science_Museum" data-name="Science Museum" transform="translate(20 64.5)" font-size="20" font-family="Raleway-SemiBold, Raleway" font-weight="600"><tspan x="0" y="19">Science Museum</tspan></text>
+</svg>

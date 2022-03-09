@@ -1,0 +1,345 @@
+.covid__banner {
+  width: 100%;
+  height: 40px;
+}
+
+.covid__banner p {
+  text-align: center;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.hero__banner {
+  width: 100%;
+  height: 520px;
+  background-image: url(/img/herobanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero__banner h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  top: 240px;
+  left: 60px;
+}
+
+.hero__banner p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  top: 300px;
+  left: 63px;
+}
+
+.tour__section {
+  width: 70%;
+  height: 500px;
+  margin: 40px auto 0px auto;
+  background-image: url(/img/exhibitiontour.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  border-radius: 5px;
+}
+
+.tour__banner {
+  height: 50px;
+  background-color: var(--blue-main);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tour__banner h2 {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+.tour__btn {
+  background-color: var(--blue-main);
+  width: 180px;
+  height: 40px;
+  border: gray solid 1px;
+  border-radius: 5px;
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+}
+
+.exhibitons__section {
+  width: 80%;
+  height: 500px;
+  margin: 40px auto 0px auto;
+  border-radius: 5px;
+  background-image: url(/img/exhibitionspace.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.exhibitons__section a {
+  color: white;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 350px;
+  left: 60px;
+  text-decoration: none;
+}
+
+.exhibitons__section p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 373px;
+  left: 62px;
+}
+
+.energica_banner {
+  width: 80%;
+  height: 400px;
+  margin: 40px auto 40px auto;
+  background-image: url(/img/energicaexhib.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 5px;
+}
+
+.energica_banner a {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 40px;
+  top: 280px;
+  left: 60px;
+  text-decoration: none;
+}
+
+.energica_banner p {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 310px;
+  left: 62px;
+}
+
+/* MEDIA Queries */
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .hero__banner {
+    background-position: center center;
+  }
+
+  .hero__banner p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 300px;
+    left: 63px;
+    width: 50%;
+  }
+
+  .exhibitons__section {
+    width: 80%;
+    height: 500px;
+    margin: 40px auto 0px auto;
+    border-radius: 5px;
+    background-image: url(/img/exhibitionspace.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .exhibitons__section a {
+    color: white;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    text-decoration: none;
+  }
+
+  .exhibitons__section p {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 385px;
+    left: 22px;
+    width: 50%;
+  }
+
+  .energica_banner a {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 270px;
+    left: 20px;
+    text-decoration: none;
+  }
+
+  .energica_banner p {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: 285px;
+    left: 22px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .covid__banner {
+    height: 60px;
+  }
+
+  .hero__banner {
+    background-position: center center;
+    background-image: url(/img/mobilehero.jpg);
+    width: 100%;
+    height: 350px;
+    position: relative;
+  }
+
+  .hero__banner h1 {
+    color: black;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero__banner p {
+    display: none;
+  }
+
+  .tour__section {
+    width: 100%;
+    height: 450px;
+    background-image: url(/img/exhibitiontour.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    border-radius: 5px;
+    border-radius: 0px;
+  }
+
+  .tour__banner {
+    height: 55px;
+    background-color: var(--blue-main);
+    border-radius: 0px;
+  }
+
+  .tour__banner h2 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .tour__btn {
+    background-color: var(--blue-main);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .tour__btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .exhibitons__section {
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/exhibitionspace.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    border-radius: 0px;
+  }
+
+  .exhibitons__section a {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    text-decoration: none;
+  }
+
+  .exhibitons__section p {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 330px;
+    left: 20px;
+  }
+
+  .energica_banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/energicaexhib.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0px;
+  }
+
+  .energica_banner a {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 280px;
+    left: 20px;
+    text-decoration: none;
+  }
+
+  .energica_banner p {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: 290px;
+    left: 20px;
+    width: 50%;
+  }
+}
